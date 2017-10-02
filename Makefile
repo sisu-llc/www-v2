@@ -24,10 +24,10 @@ www: $(PAGES)
 #	sblg -t hello.xml -o $@
 
 installwww: www
-	mkdir -p $(PREFIX)
+	mkdir -p $(PREFIX)/{img}
 	install -m 0444 $(IMAGES) $(GENHTMLS) $(BUILT) $(CSSS) $(PAGES) \
 		$(PREFIX)
-	install -m 0444 icons/*.{png,ico,xml,json,svg} $(PREFIX)
+	install -m 0444 img/*.png $(PREFIX)/img
 
 clean:
 	rm -f $(PAGES) $(GENS)

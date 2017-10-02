@@ -18,7 +18,7 @@
 			</header>
 			<article id="main">
 				<div id="logo">
-					<img itemprop="image" src="logo.png" alt="Sisu Logo"/>
+					<img itemprop="image" src="img/sisu.png" alt="Sisu Logo"/>
 				</div>
 				<h2> Hey Dudes </h2>
 				<p itemprop="description">
