@@ -1,0 +1,26 @@
+#header {
+	background-image: url("./img/banner-birch.jpg");
+	background-width: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+	padding: 1em 0.5em;
+}
+
+article {
+
+}
+
+.jumbotron {
+	opacity: 0.9;
+}
+
+#logo {
+	max-width: 45em;
+	border-radius: 10%;
+	border-color: gray;
+	height: 8em;
+	padding: 1em;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
